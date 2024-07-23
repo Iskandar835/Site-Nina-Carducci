@@ -6,11 +6,13 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
-.top-header {
-	background-color: white;
+header {
 	position: sticky;
 	top:0;
 	z-index: 1000;
+}
+.top-header {
+	background-color: white;
 	display: flex;
 	justify-content: space-between;
 	padding-inline: 100px;
